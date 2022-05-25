@@ -12,6 +12,12 @@ include "koneksiDB.php";
 //   echo $_POST['jenis_kelamin']."<br>";
 //   echo $_POST['no_hp']."<br>";
 
+// $fullname = $_POST['nama_lengkap'];
+// $address = $_POST['alamat'];
+// $gender = $_POST['jenis_kelamin'];
+// $telp = $_POST['no_hp'];
+// $id = $_POST['id'];
+
 // Karena pada from input menggunakan method post maka untuk mengambil datanya juga kita menggunakan $_POST[name]
 
 // Mendapatkan data dari hasil input form
