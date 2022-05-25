@@ -55,7 +55,7 @@
 				echo "<td>".$data["alamat"]."</td>";
 				echo "<td>".$data["jenis_kelamin"]."</td>";
 				echo "<td>".$data["nohp"]."</td>";
-				echo "<td><a href=edit.php?id=$data[id_mhs]>Edit</a> | <a href=hapus.php?id=$data[id_mhs].'>Delete</a> </td>";
+				echo "<td><a href=edit_data.php?id=$data[id_mhs]>Edit</a> | <a href=delete_data.php?id=$data[id_mhs]>Delete</a> </td>";
 				echo "</tr>";
 				
 			}
